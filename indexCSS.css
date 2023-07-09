@@ -1,0 +1,73 @@
+body{
+    background-color: #ccc;
+
+}
+
+
+
+h1 {
+    color: red;
+    font-family: Lucida Calligraphy;
+    font-size: 54px;
+    text-align: center;
+    
+   
+}
+
+h2 {
+    color: #00f;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+
+
+}
+
+
+/*COMENTÁRIO NO CSS*/
+
+h3 {
+    text-align: center;
+    color: red;
+    font-family: Lucida Calligraphy;
+    margin: 16px;
+    font-size: 20px;
+    
+}
+
+
+p{
+    text-align: center;
+    margin-left: 20px;
+    
+    
+}
+
+.descrição {
+    color: blue;
+}
+
+
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+      
+}
+
+.endereço {
+    color:black;
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 30px;
+}
+
+
+.telefone {
+    text-align: center;
+    font-size: larger;
+    color: red;
+
+}
