@@ -40,11 +40,11 @@ h3 {
 
 
 p{
-    text-align: ;
+    text-align: justify;
     margin-left: 20px;
-    
-     
+            
 }
+
 
 .descrição {
     /*cor do texto da descrião*/
@@ -54,30 +54,30 @@ p{
 
 .imagem {
     display: block;
-    /*margin-left: auto;
-    margin-right: auto;*/
+    margin-left: 20px;
+    margin-right: auto;
     width: 400px;
     /*border: 3px solid rgb(84, 84, 243);*/
       
 }
 
 .responsive {
-  /*pra colocar a foto na direita*/
-  padding: 0 6px;
+  /*pra colocar a foto na esquerda*/
+  /*TIREI PRA FOTO FICAR DENTRO DA BORDA padding: 0 6px;*/
   float: block;
+  w/*idth: 24.99999%;*/
   width: 24.99999%;
-  
+
+    
 }
-
-
 
 
 .outline {
     /*outline pra fazer uma borda na foto*/
     outline: 5px solid rgb(84, 84, 243);
     
-
 }    
+
 
 .endereço {
     color:black;
