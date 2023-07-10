@@ -82,9 +82,8 @@ p{
 }
 
 
-.telefone {
+#destaque {
     text-align: center;
-    font-size: larger;
-    color: red;
-
+    font-size:x-large;
+    color:red
 }
