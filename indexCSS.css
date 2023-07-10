@@ -2,7 +2,6 @@ body{
     background-color: #ccc;
     margin: 25px 50px 75px;
 
-
 }
 
 
@@ -12,8 +11,7 @@ h1 {
     font-family: Lucida Calligraphy;
     font-size: 54px;
     text-align: center;
-    
-   
+       
 }
 
 h2 {
@@ -23,11 +21,8 @@ h2 {
     font-style: italic;
     text-align: center;
 
-
 }
 
-
-/*COMENTÁRIO NO CSS*/
 
 h3 {
     text-align: reight;
