@@ -1,6 +1,6 @@
 body{
     background-color: #ccc;
-    margin: 25px 50px 75px;
+    margin: 25px 50px 25px;
 
 }
 
@@ -84,4 +84,17 @@ p{
     text-align: center;
     font-size:x-large;
     color:red
+}
+
+.rodapé {
+    color: white;
+    background-color: #adacac;
+    text-align: center;
+    padding-bottom: 0;
+    /*para colocar uma sombra na letra*/
+    text-shadow: 2px 2px 2px black;
+    /*para distanciar as letras letter-spacing*/
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
 }
