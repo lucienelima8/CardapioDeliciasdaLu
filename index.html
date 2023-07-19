@@ -8,25 +8,33 @@
     <link rel="stylesheet" href="indexCSS.css">
 </head>
 <body>
-    <h1>Delícias da Lu</h1>
-    <h2>Quem faz o dia especial é você.</h2>
-    <hr color="blue"></header>
-    <br>
+    <div class="gradiente fixed">
+        <div>
+            <nav class="menu">
+                    <ul>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
 
-    <!-- COM FOTO NA ESQUERDA E TEXTO EMBAIXO 
-    <h3>Torta Holandesa</h3>
-    <img src="imagens/tortaholandesa.jpeg"  class="imagem outline responsive">
-    <p class="descrição">Feita com chocolate em pó meio amargo, creme de leite, leite condensado, ovos, leite, manteiga, açúcar, gelatina sem sabor, biscoito maizena e biscoito tortinha de chocolate.
-    <br>(medida Ø 20 cm)</p>
-    <p><b>R$ 100,00</b></p>
-    <br>
-    <hr>-->
+                    </ul>
+             </nav>
+            <header> 
+                <h1 class="title">Delícias da Lu</h1> 
+                <p class="slogan">Quem faz o dia especial é você.</p>
+            </header>
+        </div>
 
-    <!-- ESSA PARTE É COM TEXTO AO LADO DA IMG-->
+    </div>
+
+
     <table style="width:fit-content">
     <tr>
 
+        <!-- linkei o #produtos lá de cima com o id aqui -->
+    <h2 id="produtos">Produtos:</h2>    
+    <br>
+
     <h3>Torta Holandesa</h3>
+    <br>
     <td>
     <img src="imagens/tortaholandesa.jpeg"  class="imagem outline responsive"></td>
     <td><p class="descrição">Feita com chocolate em pó meio amargo, creme de leite, leite condensado, ovos, leite, manteiga, açúcar, gelatina sem sabor, biscoito maizena e biscoito tortinha de chocolate.
@@ -43,8 +51,10 @@
     <hr>
 
     <table style="width:fit-content">
-        <td>    
+        <td>   
+             
     <h3>Coxinha</h3>
+    <br>
     <img src="imagens/coxinhas.jpeg" class="imagem outline responsive"></td>
     <!-- COMO TINHA FEITO SÓ COM HTML <center><img src="coxinhas.jpeg"></center> -->
     <td><p class="descrição">As coxinhas levam manteiga, sal, leite, farinha de trigo, cebola, cubo de caldo de galinha, frango desfiado e temperos.
@@ -62,6 +72,7 @@
     <table style="width:fit-content">
         <td> 
     <h3>Torta de Limão</h3>
+    <br>
     <img src="imagens/tortalimao.jpeg" class="imagem outline responsive"></td>
     <!-- COMO TINHA FEITO SÓ COM HTML <center><img src="tortalimao.jpeg"></center> -->
     <td><p class="descrição">A torta é feita com suco de limão, chantilly, leite, leite condensado, açúcar, ovos, farinha de trigo e manteiga.
@@ -79,6 +90,7 @@
     <table style="width:fit-content">
         <td>    
     <h3>Lasanha Bolonhesa</h3>
+    <br>
     <img src="imagens/lasanhabolonhesa.jpeg" class="imagem outline responsive"></td>
     <td><p class="descrição">Feita com massa de lasanha, mussarela, queijo parmesão, presunto, carne moída e molho.
     <br>(medida 29cm comprimento x 17 cm largura)</p>
@@ -94,6 +106,10 @@
     <br>
 
     <hr color="blue">
+    
+    <h2 id="contatos">Contatos:</h2>    
+    
+
     <p class="endereço"> Av. Doces Sonhos, Nº 1.308, Bairro Encantado, RJ.
     <br>
     <br>

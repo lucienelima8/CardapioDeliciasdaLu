@@ -1,8 +1,83 @@
 body{
     background-color: #ccc;
-    margin: 25px 50px 25px;
+    margin: 10px 50px 25px;
+    
 
 }
+
+.gradiente {
+    margin: auto;
+    margin-top:10px;
+    padding-top: 1px;
+    background-image: linear-gradient(blue, white);
+
+}
+
+
+.menu ul{
+    text-align: right;
+
+
+}
+
+.menu a {
+    color: white;
+}
+
+.menu ul a:hover {
+    background-color: #ccc;
+    
+    
+ }
+
+ 
+ .menu li {
+    padding: .75em 1.15em;
+    margin-top: 3px;
+    margin-right: 5px;
+
+    gap: .6rem;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Lucida Calligraphy;
+    border: solid 2px;
+    border-radius: 10px;
+
+      
+ }
+
+  
+.title {
+    color: black;
+    font-family: Lucida Calligraphy;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.slogan {
+    color: blue;
+    font-family: Lucida Calligraphy;
+    text-align: center;
+    font-size: 25px;
+    margin:auto;
+}
+     
+
+
+.hep {
+    color: black;
+    text-align: justify;
+    text-align: center;
+}
+    
+
+    
+head nav ul{
+    display: block;
+}
+
+
 
 
 h1 {
@@ -14,11 +89,13 @@ h1 {
 }
 
 h2 {
-    color: #00f;
+    color: black;
     font-family: Comic Sans MS;
     font-size: 20px;
-    font-style: italic;
-    text-align: center;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 1px;
+
 
 }
 
@@ -27,15 +104,17 @@ h3 {
     text-align: reight;
     color: red;
     font-family: Lucida Calligraphy;
-    margin: 16px;
-    font-size: 20px;
+    margin: 1px;
+    font-size: 16px;
+
+
     
 }
 
 
 p{
     text-align: justify;
-    margin-left: 20px;
+    margin-left: 16px;
             
 }
 
@@ -94,13 +173,13 @@ a:hover {
     color:black;
     text-align: center;
     font-size: medium;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 
 #destaque {
     text-align: center;
-    font-size:x-large;
+    font-size:20px;
     color:red
 }
 
@@ -113,7 +192,8 @@ a:hover {
     text-shadow: 2px 2px 2px black;
     /*para distanciar as letras letter-spacing*/
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 11px;
 
 }
 
