@@ -2,7 +2,7 @@ body{
     background-color: antiquewhite;
     /*background-color: #ccc;*/
     /*margin: 10px 50px 25px;*/
-    margin: 15px 10px 0 15px;
+    margin: 1px 1px 0 1px;
 
     
 
@@ -10,11 +10,14 @@ body{
 
 .banner {
     margin: auto;
-    margin-top:10px;
+    margin-top:1px;
     padding-top: 1px;
     background-image: url(imagens/imagemheader4.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: cover; /*img ocupar todo espaço disponível*/
+    background-position:right center; 
+    background-repeat: no-repeat;
+    text-align: center;
+    /*background-attachment: fixed;*/
     height: 250px;
     width: 100%;
     border-radius: 5px;
@@ -22,6 +25,8 @@ body{
     margin-top:10px;
     padding-top: 1px;*/
     /*background-image: linear-gradient(blue, white);*/
+
+    
 
 }
 
@@ -46,10 +51,10 @@ body{
  }
 
  
- .menu li {
+.menu li {
     padding: .75em 1.15em;
     margin-top: .1rem;
-    margin-right: 5px;
+    margin-right: 15px;
 
     gap: .6rem;
     display: inline-block;
@@ -100,7 +105,7 @@ head nav ul{
 
 
 
-
+/*Título*/
 h1 {
     color: red;
     font-family: Lucida Calligraphy;
@@ -109,6 +114,7 @@ h1 {
        
 }
 
+/*Produtos e Contato*/
 h2 {
     color: black;
     font-family: Comic Sans MS;
@@ -116,17 +122,52 @@ h2 {
     font-style: normal;
     text-align: left;
     letter-spacing: 1px;
+    margin-left: 2px;
 
 
 }
 
+/*Bloco dos produtos*/
+.section{
+    display: flex;
+    /*gap: 1.5em;*/
 
+
+}
+
+/*Cada produto*/
+article {
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    
+
+}
+
+.imagem {
+    width: 300px;
+    height: 250px;
+    outline: 3px solid rgb(84, 84, 243);
+    align-items: center;
+    border-radius: 5%;
+
+}
+
+.descrição{
+    text-align: center;
+    color: blue;
+}
+
+/*Nome da sobremesa*/
 h3 {
     text-align: reight;
     color: red;
     font-family: Lucida Calligraphy;
-    margin: 1px;
+    /*margin: 4px;*/
+    margin-bottom: 2px;
     font-size: 16px;
+    margin-top: 3rem;
 
 
     
@@ -134,29 +175,25 @@ h3 {
 
 
 p{
-    text-align: justify;
+    text-align: center;
     margin-left: 16px;
-            
+
+    
 }
 
-
-.descrição {
-    /*cor do texto da descrião*/
-    color: blue;
-}
 
 .comprando {
     background-color: #adacacc2;
     color: black;
-    display: block;
+    /*display: block;*/
     padding: 12px 16px;
     /*border-radius pra borda arredondada*/
     border-radius: 6px;
-    margin: left;
+    /*margin: left;*/
+    align-items: center;
     width: fit-content;
     letter-spacing: 1px;
     text-decoration: none;
-
 
 
 } 
@@ -167,36 +204,12 @@ a:hover {
 }
 
 
-.imagem {
-    display: block;
-    margin-left: 20px;
-    margin-right: auto;
-    width: 400px;
-    /*border: 3px solid rgb(84, 84, 243);*/
-      
-}
-
-.responsive {
-  /*pra colocar a foto na esquerda*/
-  /*TIREI PRA FOTO FICAR DENTRO DA BORDA padding: 0 6px;*/
-  float: block;
-  /*width: 24.99999%;*/
-
-}
-
-
-.outline {
-    /*outline pra fazer uma borda na foto*/
-    outline: 5px solid rgb(84, 84, 243);
-    
-}    
-
-
 .endereço {
     color:black;
     text-align: center;
     font-size: medium;
     margin-bottom: 16px;
+
 }
 
 
@@ -231,6 +244,161 @@ a:hover {
 }
 
 
+/*RESPONSIVIDADE*/
+@media screen and (max-width: 800px){
+
+    body {
+        margin-right: 0;
+    }
+
+    .banner {
+        margin: auto;
+        margin: 0;
+        padding-top: 1px;
+        background-image: url(imagens/imagemheader4.jpg);
+        background-size: cover;
+        background-position:right center;
+        background-repeat: no-repeat;
+        text-align: center;
+        /*background-attachment: fixed;*/
+        height: 250px;
+        max-width: 800px;
+        /*width: 500px;*/
+        border-radius: 5px;
 
 
+    }
 
+    .menu ul{
+        text-align: center;
+    
+    
+    }
+    
+    .menu a {
+        color: black;
+        text-decoration: none;
+        font-size: .8rem;
+        font-weight: bold
+    }
+    
+    .menu ul a:hover {
+        background-color: yellow;
+        
+        
+     }
+
+     .menu li {
+        padding: .75em 1.15em;
+        margin-top: .1rem;
+        margin-right: 15px;
+        gap: .6rem;
+        display: inline-block;
+        font-size: 12px;
+        font-family: Lucida Calligraphy;
+        border: solid 2px;
+        border-radius: 10px;
+    
+          
+     }
+    
+      /*Delícias da Lu*/
+    .title {
+        color: black;
+        font-family: Lucida Calligraphy;
+        font-size: 2.5rem;
+        text-align: center;
+        padding-top: .1rem;
+        padding-bottom: .1rem;
+        /*margin-top: 2px;*/
+        margin: auto;
+    
+    }
+     /*Quem faz o dia...*/
+    .slogan {
+        color: black;
+        /*opacity: .7;*/
+        font-family: Lucida Calligraphy;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: .1rem;
+        margin:auto;
+    }
+
+    /*Título*/
+    h1 {
+       color: red;
+       font-family: Lucida Calligraphy;
+       font-size: 2.5rem;
+       text-align: center;
+       
+    }
+
+    /*Produtos e Contato*/
+    h2 {
+       color: black;
+       font-family: Comic Sans MS;
+       font-size: 1.5rem;
+       font-style: normal;
+       text-align: center;
+       letter-spacing: 1px;
+
+
+    }
+    
+    /*Nome da sobremesa*/
+    h3 {
+        text-align: center;
+        color: red;
+        font-family: Lucida Calligraphy;
+        /*margin: 1px;*/
+        font-size: 1rem;
+             
+    }
+    
+    p{
+        text-align: center;
+        margin-left: 1rem;
+                
+    }
+    
+    .section{
+        flex-direction: column; /*vai transformar cada container em coluna quando a tela for <= 800px */
+        align-items: center;
+        /*gap: 1.5em;*/
+    
+    }
+    .comprando {
+        background-color: #adacacc2;
+        color: black;
+        padding: 12px 16px;
+        /*border-radius pra borda arredondada*/
+        border-radius: 6px;
+        width: fit-content;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-align: center;
+        
+    
+    
+    
+    } 
+    
+    a:hover {
+        background-color: rgba(0, 0, 0, .5);
+    
+    }
+    
+    
+    .endereço {
+        color:black;
+        text-align: center;
+        font-size: medium;
+        margin-bottom: 16px;
+        margin-left: 3px;
+        margin-right: 3px;
+    
+    }
+    
+    
+}    
